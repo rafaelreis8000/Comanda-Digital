@@ -1,2 +1,16 @@
 # Comanda Digital
-Repositório criado buscando o desenvolvimento de uma plataforma para gerar comandas e fazer pedidos
+
+## Objetivo
+
+Desenvolver um sistema de gerenciamento de comandas num restaurante permitindo o controle de
+
+- Clientes
+- Mesas
+- Cardápio
+- Produtos
+- Pedidos
+- Itens dos pedidos
+- Fechamento da comanda
+- Pagamentos
+- Usuários e funcionários
+- Delivery (futuramente)
