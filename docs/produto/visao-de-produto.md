@@ -35,12 +35,14 @@ Criar um sistema que permita:
 ## 4. Escopo Inicial - MVP
 
 ### Clientes
+
 - Cadastrar;
 - Consultar;
 - Alterar;
 - Remover;
 
 ### Cardápio
+
 - Cadastrar Categorias (bebidas, entradas, pratos principais, sobremesas...);
 - Cadastrar produtos;
 - Alterar produtos;
@@ -48,11 +50,13 @@ Criar um sistema que permita:
 - Controlar disponibilidade;
 
 ### Mesas
+
 - Cadastrar mesas;
 - Visualizar mesas;
 - Controlar disponibilidade;
 
 ### Comandas
+
 - Abrir comanda;
 - Associar mesa e cliente;
 - Adicionar pedidos;
@@ -61,6 +65,7 @@ Criar um sistema que permita:
 - Fechar comanda;
 
 ### Pedidos
+
 - Adicionar produto;
 - Alterar quantidade;
 - Adicionar observações;

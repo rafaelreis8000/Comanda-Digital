@@ -29,6 +29,7 @@
 ## 3. Fase 3 - Backend
 
 ### 3.1 Estrutura Inicial
+
 - Criar projeto;
 - Configurar dependências;
 - Configurar banco de dados;
@@ -36,6 +37,7 @@
 - Configurar ambiente de desenvolvimento;
 
 ### 3.2 Domínio
+
 - Implementar Cliente;
 - Implementar Produto;
 - Implementar Categoria;
@@ -46,6 +48,7 @@
 - Implementar demais entidades necessárias;
 
 ### 3.3 Funcionalidades
+
 - Cadastro de clientes;
 -Cadastro de categorias;
 - Cadastro de produtos;
@@ -59,6 +62,7 @@
 - Controle de usuários e permissões;
 
 ### 3.4 API
+
 - Criar endpoints;
 - Implementar validações;
 - Implementar tratamento de erros;
@@ -71,6 +75,7 @@
 ## 4. Fase 4 - Frontend Web
 
 ### 4.1 Estrutura
+
 - Criar projeto frontend;
 - Definir estrutura de componentes;
 - Criar sistema de navegação;
@@ -78,6 +83,7 @@
 - Definir identidade visual;
 
 ### 4.2 Telas
+
 - Login;
 - Dashboard;
 - Clientes;
@@ -91,6 +97,7 @@
 - Configurações;
 
 ### 4.3 Integração
+
 - Integrar frontend com API;
 - Implementar autenticação;
 - Implementar controle de sessão;
