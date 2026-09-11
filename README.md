@@ -14,3 +14,11 @@ Desenvolver um sistema de gerenciamento de comandas num restaurante permitindo o
 - Pagamentos
 - Usuários e funcionários
 - Delivery (futuramente)
+
+## Projeto
+
+| Links |
+| --- |
+| [Documentação](./docs/) |
+| [Produto](./docs/produto/) |
+| [Usuários](./docs/requisitos/) |
