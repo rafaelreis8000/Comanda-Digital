@@ -5,3 +5,4 @@ Nessa etapa as estruturas de funcionamento do sistema serão definidas para post
 | Links |
 | --- |
 | [Casos de Uso](./casos%20de%20uso/casos-de-uso.md) |
+| [Diagramas](./diagramas/) |
