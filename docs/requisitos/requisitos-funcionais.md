@@ -5,7 +5,7 @@ Este documento define todos os requisitos funcionais do sistema, elaborados busc
 
 ## 2. Requisitos
 
-| Código | Requisito | escrição |
+| Código | Requisito | Descrição |
 |---|---|---|
 | RF01 | Clientes | Cadastrar, consultar, alterar e inativar clientes. |
 | RF02 | Categorias | Cadastrar e gerenciar categorias do cardápio. |
@@ -25,6 +25,38 @@ Este documento define todos os requisitos funcionais do sistema, elaborados busc
 | RF16 | Autenticação | Permitir login e controle de acesso ao sistema. |
 | RF17 | Auditoria | Registrar operações relevantes realizadas pelos usuários. |
 | RF18 | Expansão | Manter a arquitetura preparada para futuras funcionalidades, como delivery e estoque. |
+
+## 2.1 DOR e DOD
+
+### RF01 - Clientes
+
+**Definition of Ready**
+- Definidos quais dados serão utilizados para cadastro;
+- Definidos quais campos serão obrigatórios;
+- Definida a Identificação única do cliente;
+
+**Definition of Done**
+- For possível cadastrar um cliente válido;
+- O sistema impedir cadastros inválidos;
+- Possibilitar consulta de clientes cadastrados;
+- For possível inativar um cliente;
+- A inativação não remover registros históricos do contato;
+- CLientes inativos não possam interagir no sistema;
+
+### RF02 - Categorias
+
+**Definition of Ready**
+- Os dados da categoria forem definidos;
+- O nome e demais atributos necessários definidos;
+- Definir relação entre categoria e produtos;
+- Definir permissões de gerenciamento;
+
+**Definition of Done**
+- For possível cadastrar uma categoria;
+- For possível consultar as categorias;
+- For possível alterar as categorias;
+- A categoria for utilizada para agrupar tipos de produto;
+- Categorias inativas ficarem ocultas no cardápio;
 
 ## 3. Regras Gerais
 
