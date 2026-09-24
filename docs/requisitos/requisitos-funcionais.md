@@ -20,11 +20,10 @@ Este documento define todos os requisitos funcionais do sistema, elaborados busc
 | RF11 | Total | Calcular automaticamente o valor dos itens e da comanda. |
 | RF12 | Pagamento | Registrar a forma de pagamento no fechamento da comanda. |
 | RF13 | Histórico | Consultar comandas e pedidos já encerrados. |
-| RF14 | Cozinha | Exibir pedidos e permitir a atualização de seus status. |
-| RF15 | Usuários | Cadastrar usuários e controlar seus perfis e permissões. |
-| RF16 | Autenticação | Permitir login e controle de acesso ao sistema. |
-| RF17 | Auditoria | Registrar operações relevantes realizadas pelos usuários. |
-| RF18 | Expansão | Manter a arquitetura preparada para futuras funcionalidades, como delivery e estoque. |
+| RF14 | Usuários | Cadastrar usuários e controlar seus perfis e permissões. |
+| RF15 | Autenticação | Permitir login e controle de acesso ao sistema. |
+| RF16 | Auditoria | Registrar operações relevantes realizadas pelos usuários. |
+| RF17 | Expansão | Manter a arquitetura preparada para futuras funcionalidades, como delivery e estoque. |
 
 ## 2.1 DOR e DOD
 
@@ -57,6 +56,136 @@ Este documento define todos os requisitos funcionais do sistema, elaborados busc
 - For possível alterar as categorias;
 - A categoria for utilizada para agrupar tipos de produto;
 - Categorias inativas ficarem ocultas no cardápio;
+
+### RF03 - Produtos
+
+**Definition of Ready**
+- Os atributos forem definidos;
+- Os campos obrigatórios forem definidos;
+- Os relacionamentos forem definidos;
+
+**Definition of Done**
+- É possível cadastrar produtos;
+- É possível gerenciar produtos;
+- Produtos possuem categorias;
+- Produtos indisponíveis ficam inativos;
+- Produtos indisponíveis não ficam visíveis;
+
+### RF04 - Cardápio
+
+**Definition of Ready**
+- Categorias e produtos devem estar definidos;
+- As informações que serão exibidas acerca do produto definidas;
+- O comportamento de categorias inativas e sem produtos deve ser levantado;
+
+**Definition of Done**
+- O cardápio exibe os produtos disponíveis;
+- É possível visualizar o cardápio;
+- Produtos podem ser selecionados apra um pedido;
+
+### RF05 - Mesa
+
+**Definition of Ready**
+- Os dados de uma mesa forem definidos;
+- A relação entre mesa e comanda for definida;
+- O corpotamento de mesas disponíveis e ocupadas forem definidos;
+
+**Definition of Done**
+- O status da mesa pode ser consultado;
+- Uma mesa pode ser marcada para uma comanda;
+- O status e o número de uma mesa pode ser modificado;
+
+### RF06 - Comandas
+
+**Definition of Ready**
+- Os dados da comanda forem definidos;
+- Os campos obrigatórios de uma comanda foram definidos;
+- A relação entre comanda e mesa forem definidas;
+- As condições de abertura e fechamento foram definidas;
+
+**Definition of Done**
+- Uma comanda pode ser aberta;
+- Uma mesa pode ser associada;
+- Um cliente deve ser assimilado;
+- O status pode ser alterado;
+
+### RF07 - Pedidos
+
+**Definition of Ready**
+- A estrutura de pedidos for definida;
+- A relação entre pedido, comanda e itens for definida;
+- As definições e status de um pedido forem definidas;
+
+**Definition of Done**
+- O pedido fica associado à comanda;
+- É possível fazer um pedido;
+- O pedido pode ser alterado;
+- O pedido evolui para "em preparo" e "entregue";
+
+### RF08 - Itens
+
+**Definition of Ready**
+- Quantidade mínima e máxima foram definidas;
+- Os campos de um item foram definidos;
+- Os campos obrigatórios foram elaborados;
+- Definir seu relacionamento com um produto;
+
+**Definition of Done**
+- Um pedido pode ser adicionado a um item;
+- Sua quantidade pode ser escolhida;
+- Observações podem ser apontadas;
+
+### RF09 - Status
+
+**Definition of Ready**
+- Todos os status necessários foram definidos;
+- O relacionamento com a comanda foi definido;
+
+**Definition of Done**
+- Todo pedido possui status;
+- O status se altera conforme o pedido evolui;
+
+### RF10 - Cancelamento
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF11 - Total
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF12 - Pagamento
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF13 - Histórico
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF14 - Usuários
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF15 - Autenticação
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF16 - Auditoria
+
+**Definition of Ready**
+**Definition of Done**
+
+### RF17 - Expansão
+
+**Definition of Ready**
+**Definition of Done**
+
+
 
 ## 3. Regras Gerais
 
