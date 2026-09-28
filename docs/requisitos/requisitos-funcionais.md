@@ -22,8 +22,7 @@ Este documento define todos os requisitos funcionais do sistema, elaborados busc
 | RF13 | Histórico | Consultar comandas e pedidos já encerrados. |
 | RF14 | Usuários | Cadastrar usuários e controlar seus perfis e permissões. |
 | RF15 | Autenticação | Permitir login e controle de acesso ao sistema. |
-| RF16 | Auditoria | Registrar operações relevantes realizadas pelos usuários. |
-| RF17 | Expansão | Manter a arquitetura preparada para futuras funcionalidades, como delivery e estoque. |
+| RF16 | Expansão | Manter a arquitetura preparada para futuras funcionalidades, como delivery e estoque. |
 
 ## 2.1 DOR e DOD
 
@@ -148,43 +147,75 @@ Este documento define todos os requisitos funcionais do sistema, elaborados busc
 ### RF10 - Cancelamento
 
 **Definition of Ready**
+- A comanda, usuário, pedido, item e produtos devem estar definidos;
+
 **Definition of Done**
+- Um pedido puder ser cancelado
 
 ### RF11 - Total
 
 **Definition of Ready**
+- A comanda, usuário, pedido, item e produtos devem estar definidos;
+
 **Definition of Done**
+- Os produtos na comanda devem ser somados e exibidos como valor total;
 
 ### RF12 - Pagamento
 
 **Definition of Ready**
+- A comanda deve estar definida;
+- Os dados para pagamento forem definidos;
+- Os tipos de pagamento forem levantados;
+
 **Definition of Done**
+- Os pagamentos poderão ser efetuados;
+- Diferentes formas de pagamento podem ser escolhidas;
 
 ### RF13 - Histórico
 
 **Definition of Ready**
+- Definir quais dados poderão ser acessados posteriormente;
+- A comanda, usuário, pedido, item e produtos devem estar definidos;
+- Os níveis de acesso devem ser levantados;
+
 **Definition of Done**
+- Histórico de compras de um usuário pode ser consultado;
+- Históricos gerais de compras podem ser consultados;
 
 ### RF14 - Usuários
 
 **Definition of Ready**
+- Os dados de um usuário forem definidos;
+- Diferentes níveis de acesso forem definidos;
+- Os campos obrigatórios forem definidos;
+
 **Definition of Done**
+- For possível cadastrar um usuário;
+- For possível consultar um usuário;
+- For possível alterar um usuário;
+- For possível desativar um usuário;
 
 ### RF15 - Autenticação
 
 **Definition of Ready**
-**Definition of Done**
+- As etapas de segurança forem elaboradas;
+- A definição de senha válida for levantada;
 
-### RF16 - Auditoria
+**Definition of Done**
+- O usuário só poderá cadastrar e-mails e senhas válidos;
+- A autenticação permitir logar no sistema com diferentes níveis de acesso;
+
+### RF16 - Expansão
 
 **Definition of Ready**
+- O MVP estiver modelado, desenvolvido e funcional;
+- As novas funcionalidades forem definidas;
+- As próximas classes forem determinadas;
+
 **Definition of Done**
-
-### RF17 - Expansão
-
-**Definition of Ready**
-**Definition of Done**
-
+- Estiverem disponíveis as paltaformas web, desktop e mobile;
+- Houver a opção de delivery;
+- Clientes conseguirem acessar a plataforma, fazer pedidos e pagamentos;
 
 
 ## 3. Regras Gerais
